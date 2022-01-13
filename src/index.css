@@ -1,13 +1,103 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.container {
+	width: 100%;
+    height: 100%;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background: rgb(137, 188, 194);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 10px;
+    margin-left: 0px;
+  }
+
+  .box1, .box3
+  {
+      float: left;
+      display:block;
+      width: 30%;
+      padding: 10px;
+      margin: 1%;
+      text-align: center;
+  }
+  .box2
+  {
+    float: left;
+    display:block;
+    width: 35%;
+    padding: 10px;
+    margin: 1%;
+    text-align: center;
+  }
+ 
+
+  .back{
+      background: rgb(137, 188, 194); ;
+  }
+
+input {
+    width: 250px;
+    height: 40px;
+}
+button {
+    background-color: rgb(243, 179, 234);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 15px;
+    margin: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    border: none;
+}
+
+td{
+        border: 1px solid black;
+        width: 105px;
+        height: 30px;
+        text-align: center;
+        
+}
+
+.blue, .blue2, .blue3
+{
+    background-color: rgb(143, 143, 238);
+}
+
+.orange,.orange2, .orange3
+{
+    background: rgb(233, 189, 108);
+}
+
+.green, .green2, .green3
+{
+    background: rgb(134, 219, 134);
+}
+.green2{
+    margin-left: 40px;
+}
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1250px;
 }
